@@ -1,0 +1,21 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #5e6d81;
+    --text-des-color: #A4A4A4;
+}
+
+*{
+    box-sizing: inherit;
+    /* kế thừa thuộc tính của thẻ cha */
+}
+
+html{
+    /* HACK 1rem = 10px*/
+    font-size: 62.5%;
+    line-height: 1.6px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
