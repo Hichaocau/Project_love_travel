@@ -10,12 +10,61 @@
     .hide-on-mobile-tablet{
         display: none;
     }
+    .header{
+        background-color: #fff;
+        height: 115px;
+    }
+    .header__nav-item-icon{
+        margin: 20px auto;
+    }
+    .content{
+        margin-top: 360px;
+    }
+    .slider__table-des{
+        height: auto;
+    }
+    .slider__table-des-list-location{
+        width: 96.8%;
+    }
 }
 
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px){
     .hide-on-tablet{
         display: none;
+    }
+    .slider__content-header{
+        font-size: 3.2rem;
+    }
+    .slider__content-subheader-firstletter,
+    .slider__content-subheader-secondletter{
+        font-size: 4.8rem;
+    }
+    .slider__content-subheader-info-city{
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 36px;
+    }
+    .slider__content-subheader-info-des{
+        font-size: 2.6rem;
+        line-height: 2px;
+    }
+    .slider__content-price-num-des{
+        font-size: 3.8rem;
+    }
+    .slider__content-price-num-icon {
+        line-height: 58px;
+        font-size: 2rem;
+    }
+    .content__tour-img,
+    .content__time-img{
+        padding-top: 55%;
+    }
+    .content__location {
+        margin-bottom: 15px;
+    }
+    .content__time-info-list{
+        margin-bottom: 45px;
     }
 }
 

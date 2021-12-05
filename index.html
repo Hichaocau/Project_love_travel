@@ -19,7 +19,7 @@
     <div class="main">
         <div class="header">
             <div class="grid wide">
-                <div class="header__infor">
+                <div class="header__infor hide-on-mobile-tablet">
                     <ul class="header__infor-list">
                         <li class="header__infor-item">
                             <div class="header__infor-item-options">
@@ -93,9 +93,13 @@
                     </ul>
                 </div>
             </div>
-            <div class="header__nav">
+            <div class="header__nav ">
                 <div class="grid wide">
-                    <ul class="header__nav-list">
+                    <div class="header__nav-item-icon-tablet hide-on-pc">
+                        <img src="./assets/img/logoTravel.png" class="header__nav-item-icon">
+                        <i class="header__nav-item-icon-menu ti-align-justify"></i>
+                    </div>
+                    <ul class="header__nav-list hide-on-mobile-tablet">
                         <li class="header__nav-item-logo">
                             <!-- <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/travel/wp-content/uploads/sites/2/2018/03/logo.png" alt="" class="header__nav-item-icon"> -->
                             <img src="./assets/img/logoTravel.png" class="header__nav-item-icon">
@@ -245,12 +249,12 @@
                             </div>
                         </div>
                         <div class="row no-gutters slider__table-des">
-                            <div class="col l-3 m-6-c-12">
+                            <div class="col l-3 m-12 c-12">
                                 <div class="slider__table-des-list">
                                     <input type="text" placeholder="Insert keyword" class="slider__table-des-item">
                                 </div>
                             </div>
-                            <div class="col l-3 m-6-c-12">
+                            <div class="col l-3 m-12 c-12">
                                 <div class="slider__table-des-list slider__table-des-list-wrap">
                                     <input type="text" placeholder="All Destinations" class="slider__table-des-item slider__table-des-item-active">
                                     <ul class="slider__table-des-list-location">
@@ -265,7 +269,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col l-3 m-6-c-12">
+                            <div class="col l-3 m-12 c-12">
                                 <div class="slider__table-des-list slider__table-des-list-wrap">
                                     <input type="text" placeholder="All Typologies" class="slider__table-des-item slider__table-des-item-active">
                                     <ul class="slider__table-des-list-location">
@@ -277,7 +281,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col l-3 m-6-c-12">
+                            <div class="col l-3 m-12 c-12">
                                 <div class="slider__table-des-list">
                                     <button class="slider__table-des-item slider__table-des-item-btn">SEARCH</button>
                                 </div>
@@ -389,7 +393,9 @@
                                 <div class="content__item-title">Rome</div>
                                 <div class="content__item-subtitle">
                                     <div class="content__item-subtitle-first content__item-subtitle-coloreighth">Italy</div>
-                                    <div class="content__item-subtitle-second content__item-subtitle-colorninth">History</div>
+                                    <div class="content__item-subtitle-second content__item-subtitle-colorninth">History ...
+                                        <span class="content__item-subtitle-bonus">+ 1</span>
+                                    </div>
                                </div>
                             </div>
                             <div class="content__description">

@@ -222,6 +222,17 @@
     cursor: pointer;
 }
 
+.header__nav-item-icon-tablet{
+    display: flex;
+    flex-direction: column;
+}
+
+.header__nav-item-icon-menu{
+    margin: auto;
+    font-size: 25px;
+    color: #89C3D4;
+}
+
 .header__nav-item-icon{
     width: 136px;
     height: 22px;
@@ -453,6 +464,7 @@
     text-align: center;
     padding-right: 10px;
     padding-left: 10px;
+    margin: 20px 0;
 }
 
 .slider__table-des-list-wrap{
@@ -587,7 +599,14 @@
 .content__item-subtitle-second{
     flex-basis: 50%;
     padding: 5px 20px;
-    background-color: #C180DE;
+    background-color: #C180DE; 
+    display: flex;
+}
+
+.content__item-subtitle-bonus{
+    background-color: #f3a46b;
+    margin-left: 35px;
+    padding: 0 8px;
 }
 
 .content__item-subtitle-colorfirst{
