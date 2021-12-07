@@ -26,6 +26,16 @@
     .slider__table-des-list-location{
         width: 96.8%;
     }
+    .footer__main{
+        text-align: center;
+    }
+    .footer__main-control{
+        justify-content: center;
+    }
+    .footer__main-socials{
+        justify-content: center;
+        margin-left: 20px;
+    }
 }
 
 /* Tablet */
@@ -69,22 +79,107 @@
     .content__info{
         margin-top: 55px;
     }
-    .footer__main-socials{
-        justify-content: center;
-        margin-left: 20px;
-    }
-    .footer__main{
-        text-align: center;
-    }
-    .footer__main-control{
-        justify-content: center;
-    }
 }
 
 /* Mobile */
 @media (max-width: 739px){
     .hide-on-mobile{
         display: none;
+    }
+    .slider__content-header{
+        font-size: 1.7rem;
+        padding-bottom: 0;
+        letter-spacing: 0;
+        line-height: 30px;
+    }
+    .slider__content-subheader-firstletter,
+    .slider__content-subheader-secondletter{
+        font-size: 2.6rem;
+        line-height: 26px;
+        padding-right: 0;
+        letter-spacing: 0;
+    }
+    .slider__content-subheader-info-des{
+        font-size: 1.4rem;
+        line-height: 23px;
+    }
+    .slider__content-subheader-info-city{
+        font-size: 0.7rem;
+        line-height: inherit;
+        margin-top: -4px;
+    }
+    .slider__content-subheader-secondletter,
+    .slider__content-subheader-info{
+        margin-left: 10px;
+    }
+    .slider__content-price-sale{
+        height: 9px;
+    }
+    .slider__content-price-sale-text{
+        margin: 3px;
+        font-size: 0.5rem;
+        line-height: 9px;
+    }
+    .slider__content-price-num-des{
+        line-height: 15px;
+        font-size: 2.1rem;
+        letter-spacing: 0;
+        margin-right: 2px;
+    }
+    .slider__content-price-num-icon{
+        font-size: 0.9rem;
+        line-height: 24px;
+    }
+    .slider__content-price{
+        margin-left: 65px;
+        margin-top: -40px;
+    }
+    .content__header-title{
+        margin: 0 80px;
+    }
+    .content__tour-img,
+    .content__time-img{
+        padding-top: 120%;
+    }
+    .content__tour-info-wrap{
+        padding: 0 80px;
+    }
+    .content__time-info-list{
+        margin-top: 50px;
+    }
+    .content__time-info-number{
+        margin-bottom: 38px;
+    }
+    .content__info{
+        margin-top: 30px;
+    }
+    .footer__bonus-main{
+        flex-direction: column;
+        text-align: center;
+    }
+    .content__info-list{
+        flex-direction: column;
+    }
+    .content__tour-info-des{
+        line-height: 40px;
+    }
+    .content__info-list-img,
+    .content__info-list-detail{
+        width: 100%;
+    }
+    .content__info-list-detai-des,
+    .content__info-list-detai-header{
+        text-align: center;
+    }
+    .content__info-list-detail-price{
+        width: 45%;
+        margin: auto;
+    }
+    .content__info-list-detail-price-number{
+        line-height: 52px;
+    }
+    .content__info-list-detail-price-btn{
+        margin-top: 0;
     }
     
 }
